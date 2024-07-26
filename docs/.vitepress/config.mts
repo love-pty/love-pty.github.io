@@ -12,11 +12,10 @@ import { blogTheme } from './blog-theme'
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
-const base = 'love-pty.github.io'
+
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
-  base,
   lang: 'zh-cn',
   title: 'pangtouyu',
   description: 'pangtouyu的博客主题，基于 vitepress 实现',
