@@ -158,4 +158,3 @@ document.getElementById( 'loginBtn' ).onclick = function() {
 ```
 
 > 参考：曾探《JavaScript设计模式与开发实践》
-
