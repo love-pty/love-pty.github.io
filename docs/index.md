@@ -12,7 +12,7 @@ blog:
  # 设置 inspiringTimeout 可以实现自动切换
  inspiringTimeout: 3000
  pageSize: 6
- author: zhj
+ author: pangtouyu
  logo: /logo.png
  minScreenAvatar: true
  # 文章数据分析卡片标题定义

@@ -25,6 +25,17 @@ const blogTheme = getThemeConfig({
       }
     ]
   },
+  comment: {
+    type: 'giscus',
+    options: {
+      repo: 'love-pty/love-pty.github.io',
+      repoId: 'R_kgDOMbXlWA',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOMbXlWM4ChZ4l',
+      inputPosition: 'top'
+    },
+    mobileMinify: true
+  },
   // 开启RSS支持
   // RSS,
 
