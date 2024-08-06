@@ -21,6 +21,9 @@ importers:
         specifier: 3.4.26
         version: 3.4.26(typescript@5.5.4)
     devDependencies:
+      cos-js-sdk-v5:
+        specifier: ^1.8.3
+        version: 1.8.3
       pagefind:
         specifier: ^1.1.0
         version: 1.1.0
@@ -663,6 +666,10 @@ packages:
   '@vueuse/shared@9.13.0':
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
 
+  '@xmldom/xmldom@0.8.10':
+    resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
+    engines: {node: '>=10.0.0'}
+
   algoliasearch@4.24.0:
     resolution: {integrity: sha512-bf0QV/9jVejssFBmz2HQLxUadxk574t4iwjCKp5E7NBzwKkrDEhKPISIIjAU/p6K5qDx3qoeh4+26zWN1jmw3g==}
 
@@ -708,6 +715,9 @@ packages:
   copy-anything@3.0.5:
     resolution: {integrity: sha512-yCEafptTtb4bk7GLEQoM8KVJpxAfdBJYaXyzQEgQQQgYrZiDp8SJmGKlYza6CYjEDNstAdNdKA3UuoULlEbS6w==}
     engines: {node: '>=12.13'}
+
+  cos-js-sdk-v5@1.8.3:
+    resolution: {integrity: sha512-Ne7VsOfuW6D5IuEWlR9VO9R2kFnotOSfAu6S0B5RyYETXmKlUWng3cl/JpVmwkn4VaFqcnsm2t45lCYnvozahA==}
 
   cose-base@1.0.3:
     resolution: {integrity: sha512-s9whTXInMSgAp/NVXVNuVxVKzGH2qck3aQlVHxDCdAEPgtMKwc4Wq6/QKhgdEdgbLSi9rBTAcPoRa6JpiG4ksg==}
@@ -2087,6 +2097,8 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
+  '@xmldom/xmldom@0.8.10': {}
+
   algoliasearch@4.24.0:
     dependencies:
       '@algolia/cache-browser-local-storage': 4.24.0
@@ -2147,6 +2159,10 @@ snapshots:
   copy-anything@3.0.5:
     dependencies:
       is-what: 4.1.16
+
+  cos-js-sdk-v5@1.8.3:
+    dependencies:
+      '@xmldom/xmldom': 0.8.10
 
   cose-base@1.0.3:
     dependencies:

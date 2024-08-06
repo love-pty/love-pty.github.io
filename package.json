@@ -19,6 +19,7 @@
     "doc": "docs"
   },
   "devDependencies": {
+    "cos-js-sdk-v5": "^1.8.3",
     "pagefind": "^1.1.0",
     "sass": "^1.76.0",
     "typescript": "^5.4.5",

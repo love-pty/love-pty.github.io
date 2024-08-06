@@ -20,6 +20,8 @@ export default defineConfig({
   title: 'pangtouyu',
   description: 'pangtouyu的博客主题，基于 vitepress 实现',
   lastUpdated: true,
+  //简洁路由
+  cleanUrls: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
